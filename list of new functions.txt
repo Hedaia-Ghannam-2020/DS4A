@@ -1,0 +1,7 @@
+One: 
+# Nicely format the result for printing to the screen
+for country_key in country_means: 
+    print("Country: {0:s}, Avg Success Estimate: {1:.2f}".format(country_key, country_means[country_key]))
+
+print({location:type}.format(variables))
+____________
